@@ -17,8 +17,6 @@ spec:
     spec:
       containers:
       - name: grade-submission-api
-        image: nanajanashia/argocd-app
-        tag: 1.0
-        imagePullPolicy: IfNotPresent
+        image: nanajanashia/argocd-app:1.0
         ports:
           - containerPort: 3000
