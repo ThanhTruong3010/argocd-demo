@@ -17,6 +17,7 @@ spec:
     spec:
       containers:
       - name: grade-submission-api
-        image: rslim087/kubernetes-course-grade-submission-api:stateless
+        image: nanajanashia/argocd-app
+        tag: 1.0
         ports:
           - containerPort: 3000

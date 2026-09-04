@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: rslim087/kubernetes-course-grade-submission-api
-  tag: stateless
+  repository: nanajanashia/argocd-app:1.0
+  tag: 1.0
   pullPolicy: IfNotPresent
 
 service:
