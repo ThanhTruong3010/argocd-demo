@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: nanajanashia/argocd-app
+  repository: nanajanashia/argocd-app:1.0
   tag: 1.0
   pullPolicy: IfNotPresent
 
